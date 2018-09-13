@@ -1,4 +1,4 @@
-package org.jetbrains.kotlin.demo
+package demo
 
 
 import org.springframework.web.bind.annotation.GetMapping
