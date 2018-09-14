@@ -29,4 +29,11 @@ class HelloControllerTest {
                 .andExpect(status().isOk)
                 .andExpect(content().string(equalTo("Hello Spring!")))
     }
+
+    @Test
+    @Throws(Exception::class)
+    fun getArticles() {
+        mvc!!.perform(MockMvcRequestBuilders.get("/api/articles").accept(MediaType.APPLICATION_JSON))
+                .andExpect(status().isOk)
+    }
 }

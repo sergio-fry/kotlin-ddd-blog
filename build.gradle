@@ -30,7 +30,7 @@ dependencies {
     testCompile(
       'org.springframework.boot:spring-boot-starter-test',
       'org.hamcrest:hamcrest-all:1.3',
-      'junit:juint'
+      'junit:junit:4.12'
     )
 
 
